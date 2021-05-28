@@ -26,7 +26,7 @@ def calculate(expression):
             elif token == '/':
                 result = x / y
             elif token == '^':
-                result = x ^ y
+                result = x ** y
             stack.append(result)
         else:
             print(f'operand: {token}')
